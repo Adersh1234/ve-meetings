@@ -1,7 +1,6 @@
 "use client";
 
-import { m, LazyMotion, domAnimation, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { LazyMotion, domAnimation } from "framer-motion";
 import { FadeInView } from "@/components/motion/FadeInView";
 import { copy } from "@/config/copy";
 
@@ -116,7 +115,6 @@ export function Features() {
                 number={cardData[i].number}
                 icon={cardData[i].icon}
                 visual={cardData[i].visual}
-                index={i}
               />
             ))}
           </div>
